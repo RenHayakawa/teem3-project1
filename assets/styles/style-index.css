@@ -1,0 +1,47 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    width: 100vw;
+}
+
+.header__logo {
+    margin: 30px 25% 30px 11%;
+}
+
+.header__nav {
+    display: flex;
+    align-items: center;
+}
+
+.header__nav-link {
+    margin-left: 53px;
+    font: normal 400 12px/12px Roboto, sans-serif;
+    text-decoration: none;
+    color: #333333;
+}
+
+.header__nav-link:hover {
+    font-weight: bold;
+}
+
+.header__nav-link:first-child {
+    align-self: center;
+    margin: 0;
+    padding: 4px 34px 4px 34px;
+    border-top: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+}
+
+.header__nav-link:last-child {
+    margin-right: 269px;
+}
