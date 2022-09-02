@@ -1,0 +1,119 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.projects {
+    padding: 63px 19% 120px 10%;
+}
+
+.projects__title {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+    margin: 0 0 60px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 64px;
+    color: #333333;
+}
+
+.projects__title span {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 64px;
+    color: #BDBDBD;
+}
+
+.projects__items {
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.projects__item {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.projects__item-img {
+    width: 50%;
+}
+
+.projects__item-content {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 30px;
+    background-color: #FBFBFB;
+}
+
+.projects__item-title {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 40px;
+    color: #BDBDBD;
+    margin-bottom: 73px;
+}
+
+.projects__item-text {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    color: #000000;
+    margin-bottom: 64px;
+}
+
+.projects__item-link-wrapper {
+    margin-top: auto;
+}
+
+.projects__item-link {
+    display: flex;
+    justify-content: baseline;
+    width: fit-content;
+    padding: 24px 52px 23px 42px;
+    margin-top: auto;
+    background-color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #333333;
+}
+
+.projects__item-link:hover {
+    font-weight: bold;
+}
+
+.projects__item-link>span {
+    display: inline-block;
+    margin-top: 5px;
+    margin-right: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+}
