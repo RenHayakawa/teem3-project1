@@ -23,19 +23,12 @@ a {
     align-items: flex-start;
     padding: 0;
     margin: 0 0 60px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-    font-size: 64px;
-    line-height: 64px;
+    font: 700 64px/64px 'Roboto', sans-serif;
     color: #333333;
 }
 
 .projects__title span {
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 64px;
-    line-height: 64px;
+    font: 300 64px/64px 'Roboto', sans-serif;
     color: #BDBDBD;
 }
 
@@ -65,19 +58,13 @@ a {
 }
 
 .projects__item-title {
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 40px;
+    font: 300 40px 'Roboto', sans-serif;
     color: #BDBDBD;
     margin-bottom: 73px;
 }
 
 .projects__item-text {
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 16px;
+    font: 300 16px 'Roboto', sans-serif;
     color: #000000;
     margin-bottom: 64px;
 }
@@ -88,15 +75,11 @@ a {
 
 .projects__item-link {
     display: flex;
-    justify-content: baseline;
     width: fit-content;
     padding: 24px 52px 23px 42px;
     margin-top: auto;
     background-color: #fff;
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-size: 12px;
-    line-height: 12px;
+    font: 12px/12px 'Roboto', sans-serif;
     letter-spacing: 0.2em;
     text-transform: uppercase;
     color: #333333;
@@ -110,10 +93,7 @@ a {
     display: inline-block;
     margin-top: 5px;
     margin-right: 20px;
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-size: 12px;
-    line-height: 12px;
+    font: 12px/12px 'Roboto', sans-serif;
     letter-spacing: 0.2em;
     text-transform: uppercase;
 }
