@@ -1,0 +1,11 @@
+.about {
+   height: 528px ; width: 1170px; left: 835px; top: 1025px;}
+
+   .about__title{
+    flex-direction: column;
+   display: flex;
+    color: grey ;
+    width: 168px; height: 73px;
+     align-items: flex-end;
+   }
+   
