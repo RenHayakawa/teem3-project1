@@ -11,20 +11,31 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@300;400;500;700;900&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="./assets/styles/style-index.css">
     <link rel="stylesheet" href="./assets/styles/style-certifications.css">
 </head>
 
 <body>
     <header class="header">
         <img class="header__logo" alt="Логотип" src="assets/images/logo.svg">
-        <nav class="header__nav">
-            <a class="header__link" href="index.html">MAIN</a>
-            <a class="header__link" href="gallery.html">GALLERY</a>
-            <a class="header__link" href="projects.html">PROJECTS</a>
-            <a class="header__link" href="certifications.html">CERTIFICATIONS</a>
-            <a class="header__link" href="contacts.html">CONTACTS</a>
-        </nav>
+        <div class="header__wrapper-menu">
+            <div class="header__menu-btn">
+                <input type="checkbox" id="header__btn">
+                <label for="header__btn">
+                    <div class="header__icon">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </label>
+                <nav class="header__nav">
+                    <a class="header__link" href="index.html">MAIN</a>
+                    <a class="header__link" href="gallery.html">GALLERY</a>
+                    <a class="header__link" href="projects.html">PROJECTS</a>
+                    <a class="header__link" href="certifications.html">CERTIFICATIONS</a>
+                    <a class="header__link" href="contacts.html">CONTACTS</a>
+                </nav>
+            </div>
+        </div>
     </header>
 
     <footer class="footer">

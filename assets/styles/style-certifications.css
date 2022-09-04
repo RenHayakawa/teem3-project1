@@ -10,6 +10,46 @@ html {
 
 @media screen and (min-width:768px) {
 
+    .header {
+        display: flex;
+        align-items: center;
+        width: 100vw;
+        padding-right: 19%;
+        padding-left: 10%;
+    }
+
+    .header__logo {
+        margin: 30px 25% 30px 0;
+    }
+
+    #header__btn {
+        display: none;
+    }
+
+    .header__nav {
+        display: flex;
+        align-items: center;
+    }
+
+    .header__link {
+        margin-left: 53px;
+        font: normal 400 12px/12px Roboto, sans-serif;
+        text-decoration: none;
+        color: #333333;
+    }
+
+    .header__link:hover {
+        font-weight: bold;
+    }
+
+    .header__link:first-child {
+        margin: 0;
+        padding: 4px 34px 4px 34px;
+        border-top: 1px solid #333333;
+        border-bottom: 1px solid #333333;
+    }
+
+    /*FOOTER*/
     .footer {
         width: 100vw;
         background-color: #2C2C2C;
@@ -111,6 +151,94 @@ html {
 }
 
 @media screen and (max-width: 767px) {
+
+    .header {
+        display: flex;
+        padding: 20px 50px 20px 50px;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .header__wrapper-menu {
+        display: flex;
+        justify-content: flex-end;
+        position: relative;
+        width: 190px;
+    }
+
+    .header__menu-btn {
+        visibility: visible;
+    }
+
+    #header__btn {
+        display: none;
+    }
+
+    .header__icon {
+        margin: 0;
+        width: 20px;
+        height: 22px;
+        cursor: pointer;
+        position: relative;
+    }
+
+    .header__icon span {
+        background-color: black;
+        height: 2px;
+        position: absolute;
+        width: 100%;
+        left: 0;
+        transition: all 0.3s ease;
+    }
+
+    .header__icon span:first-child {
+        top: 0;
+    }
+
+    .header__icon span:nth-child(2) {
+        top: 6px;
+    }
+
+    .header__icon span:last-child {
+        top: 12px;
+    }
+
+    .header__icon:hover span:nth-child(2) {
+        opacity: 0;
+    }
+
+    .header__icon:hover span:first-child,
+    .header__icon:hover span:last-child {
+        top: 6px;
+        background-color: black;
+    }
+
+    .header__nav {
+        display: block;
+        position: absolute;
+        transform: translateY(20%);
+        top: 0;
+        right: 0px;
+        visibility: hidden;
+    }
+
+    .header__link {
+        display: block;
+        padding: 5px;
+        border-bottom: 1px solid #333333;
+        font: normal 400 12px/12px Roboto, sans-serif;
+        text-align: center;
+        text-decoration: none;
+        color: #333333;
+        background-color: rgba(255, 255, 255, 0.7);
+    }
+
+    #header__btn:checked~.header__nav {
+        visibility: visible;
+    }
+
+    /*FOOTER*/
+
     .footer {
         width: 100vw;
         background-color: #2C2C2C;
