@@ -46,14 +46,9 @@ a {
     margin-bottom: 60px;
 }
 
-.projects__item-img {
-    width: 50%;
-}
-
 .projects__item-content {
     display: flex;
     flex-direction: column;
-    width: 50%;
     padding: 30px;
     background-color: #FBFBFB;
 }
@@ -146,4 +141,71 @@ a {
     background-color: #FFFFFF;
     border: 1px solid #F2F2F2;
     margin-left: 22px;
+}
+
+@media screen and (max-width: 767px) {
+    .projects {
+        padding: 20px 50px 20px 50px;
+    }
+
+    .projects__title {
+        margin: 0 0 30px;
+        font: 34px/34px 'Roboto', sans-serif;
+    }
+
+    .projects__title span {
+        font: 34px/34px 'Roboto', sans-serif;
+    }
+
+    .projects__item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .projects__item-img {
+        max-width: 100%;
+    }
+
+    .projects__item-content {
+        max-width: 100%;
+        padding: 10px;
+    }
+
+    .projects__item-title {
+        font: 25px 'Roboto', sans-serif;
+        margin-bottom: 36px;
+    }
+
+    .projects__item-text {
+        margin-bottom: 60px;
+    }
+
+    .paging {
+        margin-bottom: 60px;
+    }
+
+    .paging__page-numbers span {
+        font: 400 18px/18px 'Roboto', sans-serif;
+        margin-right: 15px;
+    }
+
+    .paging__page-numbers a {
+        font: 400 18px/18px 'Roboto', sans-serif;
+        margin-left: 15px;
+    }
+
+    .paging__page-line-img {
+        max-width: 70%;
+    }
+
+    .paging__page-btn-preview {
+        margin-left: 15px;
+    }
+
+    .paging__page-btn-next {
+        margin-left: 15px;
+    }
 }
