@@ -252,6 +252,10 @@ html {
         background-color: rgba(255, 255, 255, 0.7);
     }
 
+    .header__link:last-child {
+        border-bottom: none;
+    }
+
     #header__btn:checked~.header__nav {
         visibility: visible;
     }
