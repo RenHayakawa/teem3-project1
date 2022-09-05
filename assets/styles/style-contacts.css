@@ -1,0 +1,68 @@
+.section__contacts {
+    display: flex;
+    padding: 0 19% 112px 10%;
+}
+
+.section__wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.section__title {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 63px;
+    margin-bottom: 34px;
+    font: normal 700 64px/64px 'Roboto', sans-serif;
+    color: #333333;
+}
+
+.section__title span {
+    font: normal 300 64px/64px 'Roboto', sans-serif;
+    color: #BDBDBD;
+}
+
+.section__address,
+.section__email {
+    font: normal 300 16px/19px 'Roboto', sans-serif;
+    color: #333333;
+}
+
+.section__address span,
+.section__phone {
+    font: normal 700 18px/21px 'Roboto', sans-serif;
+    color: #333333;
+}
+
+.section__address {
+    margin-bottom: 44px;
+}
+
+.section__phone {
+    margin-bottom: 53px;
+}
+
+.section__email {
+    margin-bottom: 33px;
+}
+
+.section__btn {
+    width: 222px;
+    height: 71px;
+    font: normal 400 12px/12px 'Roboto', sans-serif;
+    text-decoration: none;
+    color: white;
+    background-color: #333333;
+    border-style: none;
+}
+
+.section__btn:hover {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.section__map {
+    max-width: 100%;
+    margin-left: 177px;
+}
