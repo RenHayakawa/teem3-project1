@@ -13,18 +13,31 @@
         rel="stylesheet">
     <link rel="stylesheet" href="./assets/styles/style-index.css">
     <link rel="stylesheet" href="./assets/styles/style-projects.css">
+    <link rel="stylesheet" href="./assets/styles/style-certifications.css">
 </head>
 
 <body>
     <header class="header">
-        <img class="header__logo" alt="Логотип" src="./assets/images/logo.svg">
-        <nav class="header__nav">
-            <a class="header__link" href="index.html">MAIN</a>
-            <a class="header__link" href="gallery.html">GALLERY</a>
-            <a class="header__link" href="projects.html">PROJECTS</a>
-            <a class="header__link" href="certifications.html">CERTIFICATIONS</a>
-            <a class="header__link" href="contacts.html">CONTACTS</a>
-        </nav>
+        <img class="header__logo" alt="Логотип" src="assets/images/logo.svg">
+        <div class="header__wrapper-menu">
+            <div class="header__menu-btn">
+                <input type="checkbox" id="header__btn">
+                <label for="header__btn">
+                    <div class="header__icon">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </label>
+                <nav class="header__nav">
+                    <a class="header__link" href="index.html">MAIN</a>
+                    <a class="header__link" href="gallery.html">GALLERY</a>
+                    <a class="header__link" href="projects.html">PROJECTS</a>
+                    <a class="header__link" href="certifications.html">CERTIFICATIONS</a>
+                    <a class="header__link" href="contacts.html">CONTACTS</a>
+                </nav>
+            </div>
+        </div>
     </header>
     <section class="projects">
         <h3 class="projects__title"><span>Our</span>Projects</h3>
@@ -83,10 +96,61 @@
                 <a href="#" class="paging__page-btn-preview"><img class="paging__arrow-left-img" alt="Arrow"
                         src="./assets/images/arrow-left-long.svg"></a>
                 <a href="#" class="paging__page-btn-next"><img class="paging__arrow-right-img" alt="Arrow"
-                    src="./assets/images/arrow-right-long.svg"></a>
+                        src="./assets/images/arrow-right-long.svg"></a>
             </div>
         </div>
     </section>
+    <footer class="footer">
+        <div class="footer__wrapper">
+            <img class="footer__logo" alt="footer logo" src="./assets/images/footer-logo.svg">
+            <div class="footer__wrapper-infotmation">
+                <div class="footer__information">
+                    <h6 class="footer__header">Information</h6>
+                    <a class="footer__link" href="index.html">Main</a>
+                    <a class="footer__link" href="gallery.html">Gallery</a>
+                    <a class="footer__link" href="projects.html">Projects</a>
+                    <a class="footer__link" href="certifications.html">Certifications</a>
+                    <a class="footer__link" href="contacts.html">Contacts</a>
+                </div>
+                <div class="footer__contacts">
+                    <h6 class="footer__header">Contacts</h6>
+                    <div class="footer__item">
+                        <img class="footer__contacts_location" alt="footer location icon"
+                            src="./assets/images/footer-location.svg">1234 Sample Street Austin Texas
+                        78704
+                    </div>
+                    <div class="footer__item">
+                        <img class="footer__contacts_phone" alt="footer phone icon"
+                            src="./assets/images/footer-phone.svg">512.333.2222
+                    </div>
+                    <div class="footer__item">
+                        <img class="footer__contacts_email" alt="footer email icon"
+                            src="./assets/images/footer-email.svg">sampleemail@gmail.com
+                    </div>
+                </div>
+                <div class="footer__social-media">
+                    <h6 class="footer__header">Social Media</h6>
+                    <div class="footer__icon">
+                        <a class="footer__icon-links" href="#">
+                            <img alt="facebook icon" src="./assets/images/footer-facebook.svg">
+                        </a>
+                        <a class="footer__icon-links" href="#">
+                            <img alt="twitter icon" src="./assets/images/footer-twitter.svg">
+                        </a>
+                        <a class="footer__icon-links" href="#">
+                            <img alt="linked in icon" src="./assets/images/footer-linked-in.svg">
+                        </a>
+                        <a class="footer__icon-links" href="#">
+                            <img alt="pininterest icon" src="./assets/images/footer-pininterest.svg">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__rights">
+            &copy; 2021 All Rights Reserved
+        </div>
+    </footer>
 </body>
 
 </html>
