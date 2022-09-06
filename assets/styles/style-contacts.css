@@ -85,12 +85,12 @@
         align-items: flex-start;
         margin-top: 0;
         margin-bottom: 34px;
-        font: normal 700 40px/40px 'Roboto', sans-serif;
+        font: normal 700 34px/34px 'Roboto', sans-serif;
         color: #333333;
     }
 
     .section__title span {
-        font: normal 300 40px/40px 'Roboto', sans-serif;
+        font: normal 300 34px/34px 'Roboto', sans-serif;
         color: #BDBDBD;
     }
 
