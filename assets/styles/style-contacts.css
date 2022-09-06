@@ -1,68 +1,141 @@
-.section__contacts {
-    display: flex;
-    padding: 0 19% 112px 10%;
+@media screen and (min-width: 768px) {
+
+    .section__contacts {
+        display: flex;
+        padding: 0 19% 112px 10%;
+    }
+
+    .section__wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section__title {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 63px;
+        margin-bottom: 34px;
+        font: normal 700 64px/64px 'Roboto', sans-serif;
+        color: #333333;
+    }
+
+    .section__title span {
+        font: normal 300 64px/64px 'Roboto', sans-serif;
+        color: #BDBDBD;
+    }
+
+    .section__address,
+    .section__email {
+        font: normal 300 16px/19px 'Roboto', sans-serif;
+        color: #333333;
+    }
+
+    .section__address span,
+    .section__phone {
+        font: normal 700 18px/21px 'Roboto', sans-serif;
+        color: #333333;
+    }
+
+    .section__address {
+        margin-bottom: 44px;
+    }
+
+    .section__phone {
+        margin-bottom: 53px;
+    }
+
+    .section__email {
+        margin-bottom: 33px;
+    }
+
+    .section__btn {
+        width: 222px;
+        height: 71px;
+        font: normal 400 12px/12px 'Roboto', sans-serif;
+        text-decoration: none;
+        color: white;
+        background-color: #333333;
+        border-style: none;
+    }
+
+    .section__btn:hover {
+        cursor: pointer;
+        font-weight: bold;
+    }
+
+    .section__map {
+        max-width: 100%;
+        margin-left: 177px;
+    }
 }
 
-.section__wrapper {
-    display: flex;
-    flex-direction: column;
-}
+@media screen and (max-width:767px) {
+    .section__contacts {
+        padding: 63px;
+        padding-top: 63px;
+        padding-right: 50px;
+        padding-left: 50px;
+        padding-bottom: 63px;
+    }
 
-.section__title {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin-top: 63px;
-    margin-bottom: 34px;
-    font: normal 700 64px/64px 'Roboto', sans-serif;
-    color: #333333;
-}
+    .section__title {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 0;
+        margin-bottom: 34px;
+        font: normal 700 40px/40px 'Roboto', sans-serif;
+        color: #333333;
+    }
 
-.section__title span {
-    font: normal 300 64px/64px 'Roboto', sans-serif;
-    color: #BDBDBD;
-}
+    .section__title span {
+        font: normal 300 40px/40px 'Roboto', sans-serif;
+        color: #BDBDBD;
+    }
 
-.section__address,
-.section__email {
-    font: normal 300 16px/19px 'Roboto', sans-serif;
-    color: #333333;
-}
+    .section__address,
+    .section__email {
+        font: normal 300 16px/19px 'Roboto', sans-serif;
+        color: #333333;
+    }
 
-.section__address span,
-.section__phone {
-    font: normal 700 18px/21px 'Roboto', sans-serif;
-    color: #333333;
-}
+    .section__address span,
+    .section__phone {
+        font: normal 700 18px/21px 'Roboto', sans-serif;
+        color: #333333;
+    }
 
-.section__address {
-    margin-bottom: 44px;
-}
+    .section__address {
+        margin-bottom: 40px;
+    }
 
-.section__phone {
-    margin-bottom: 53px;
-}
+    .section__phone {
+        margin-bottom: 40px;
+    }
 
-.section__email {
-    margin-bottom: 33px;
-}
+    .section__email {
+        margin-bottom: 30px;
+    }
 
-.section__btn {
-    width: 222px;
-    height: 71px;
-    font: normal 400 12px/12px 'Roboto', sans-serif;
-    text-decoration: none;
-    color: white;
-    background-color: #333333;
-    border-style: none;
-}
+    .section__btn {
+        width: 180px;
+        height: 60px;
+        margin-bottom: 30px;
+        font: normal 400 12px/12px 'Roboto', sans-serif;
+        text-align: center;
+        text-decoration: none;
+        color: white;
+        background-color: #333333;
+        border-style: none;
+    }
 
-.section__btn:hover {
-    cursor: pointer;
-    font-weight: bold;
-}
+    .section__btn:hover {
+        cursor: pointer;
+        font-weight: bold;
+    }
 
-.section__map {
-    max-width: 100%;
-    margin-left: 177px;
+    .section__map {
+        max-width: 100%;
+    }
 }
