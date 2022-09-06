@@ -17,7 +17,7 @@ html {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin: 0 0 61px 0;
+    margin: 0 0 30px 0;
     font: normal 700 64px/64px 'Roboto', sans-serif;
     color: #333333;
 }
@@ -25,6 +25,12 @@ html {
 .section__title span {
     font: normal 300 64px/64px 'Roboto', sans-serif;
     color: #BDBDBD;
+}
+
+.section__line {
+    margin-bottom: 30px;
+    width: 100%;
+    border-top: 1px solid #F2F2F2;
 }
 
 .gallery {
@@ -59,6 +65,7 @@ html {
     font: 400 24px/24px 'Roboto', sans-serif;
     color: #BDBDBD;
     margin-left: 30px;
+    text-decoration: none;
 }
 
 .paging__page-btn {
