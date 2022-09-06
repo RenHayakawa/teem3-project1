@@ -113,6 +113,7 @@ a {
     font: 400 24px/24px 'Roboto', sans-serif;
     color: #BDBDBD;
     margin-left: 30px;
+    text-decoration: none;
 }
 
 .paging__page-btn {
@@ -131,6 +132,10 @@ a {
     margin-left: 30px;
 }
 
+.paging__page-btn-preview:hover {
+    background-color: #F9F9F9;
+}
+
 .paging__page-btn-next {
     display: flex;
     align-items: center;
@@ -141,6 +146,11 @@ a {
     background-color: #FFFFFF;
     border: 1px solid #F2F2F2;
     margin-left: 22px;
+}
+
+
+.paging__page-btn-next:hover {
+    background-color: #F9F9F9;
 }
 
 @media screen and (max-width: 767px) {
