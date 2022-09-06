@@ -1,3 +1,13 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
 .section__gallery {
     padding: 63px 8% 120px 10%;
     width: 100vw;
