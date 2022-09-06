@@ -42,3 +42,51 @@ html {
     border-top: 1px solid #333333;
     border-bottom: 1px solid #333333;
 }
+
+/*projeckt*/
+
+.project__boby{
+    max-width: 1170px;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    }
+    
+    .project__colum{
+    width: 45%;
+        }
+    .project__title{
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 64px;
+    color: #BDBDBD;
+    margin-top: 320px;
+    }
+    
+    .project__text{
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 64px;
+    color: #333333;
+        }
+    
+    .project__slider-arrow,
+    .project__slide-numbers{
+    margin-top: 90px;
+    }
+    
+    .project__button{
+    margin-top: 12px;
+    margin-left: 320px;
+    }
+    .project_image{
+    max-width: 100%;
+    max-height: 60%;
+    }
+    
+    .project__colum{
+    max-width: 100%
+    }
