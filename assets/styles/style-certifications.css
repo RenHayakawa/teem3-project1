@@ -22,6 +22,10 @@ html {
         margin: 30px 25% 30px 0;
     }
 
+    .header__wrapper-menu {
+        width: 100%;
+    }
+
     #header__btn {
         display: none;
     }
@@ -29,10 +33,12 @@ html {
     .header__nav {
         display: flex;
         align-items: center;
+        justify-content: space-between;
+        width: 100%;
     }
 
     .header__link {
-        margin-left: 53px;
+        padding-left: 15px;
         font: normal 400 12px/12px Roboto, sans-serif;
         text-decoration: none;
         color: #333333;
@@ -43,7 +49,6 @@ html {
     }
 
     .header__link:first-child {
-        margin: 0;
         padding: 4px 34px 4px 34px;
         border-top: 1px solid #333333;
         border-bottom: 1px solid #333333;
