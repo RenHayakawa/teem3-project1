@@ -45,48 +45,203 @@ html {
 
 /*projeckt*/
 
-.project__boby{
+.project__boby {
     max-width: 1170px;
     margin: 0px auto;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    }
-    
-    .project__colum{
+}
+
+.project__colum {
     width: 45%;
-        }
-    .project__title{
+}
+
+.project__title {
     font-family: 'Roboto';
     font-weight: 300;
     font-size: 64px;
     line-height: 64px;
     color: #BDBDBD;
     margin-top: 320px;
-    }
-    
-    .project__text{
+}
+
+.project__text {
     font-family: 'Roboto';
     font-weight: 700;
     font-size: 64px;
     line-height: 64px;
     color: #333333;
-        }
-    
-    .project__slider-arrow,
-    .project__slide-numbers{
+}
+
+.project__slider-arrow,
+.project__slide-numbers {
     margin-top: 90px;
-    }
-    
-    .project__button{
+}
+
+.project__button {
     margin-top: 12px;
     margin-left: 320px;
-    }
-    .project_image{
+}
+
+.project_image {
     max-width: 100%;
     max-height: 60%;
-    }
-    
-    .project__colum{
+}
+
+.project__colum {
     max-width: 100%
-    }
+}
+
+/* Contact Us */
+
+.contactus {
+    padding: 63px 19% 120px 10%;
+}
+
+.contactus__title {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+    margin: 0 0 22px;
+    font: 300 64px/64px 'Roboto', sans-serif;
+    color: #BDBDBD;
+}
+
+.contactus__container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.contactus__form {
+    display: flex;
+    flex-direction: column;
+    max-width: 390px;
+    width: 100%;
+}
+
+.contactus__form input {
+    box-sizing: border-box;
+    height: 45px;
+    width: 100%;
+    margin-bottom: 10px;
+    border: none;
+    background-color: #F3F3F3;
+    padding: 15px 20px;
+    font: 400 14px/16px 'Roboto', sans-serif;
+    color: #8D8D8D;
+}
+
+.contactus__form textarea {
+    width: 100%;
+    border: none;
+    resize: none;
+    background-color: #F3F3F3;
+    padding: 15px 20px;
+    font: 400 14px/16px 'Roboto', sans-serif;
+    margin-bottom: 77px;
+}
+
+.contactus__form-textfield {
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+.contactus__form-textfield__label {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    display: block;
+    font: 400 14px/16px 'Roboto', sans-serif;
+    color: #8D8D8D;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: text;
+}
+
+.asterisk::after {
+    position: relative;
+    top: -3px;
+    left: 1px;
+    display: inline-block;
+    content: "*";
+    color: #d0011b;
+}
+
+.contactus__form-textfield__input {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 11px 14px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    background: #ffffff;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    outline: none;
+    transition: all 0.25s linear;
+}
+
+.contactus__form-textfield__input:focus {
+    border-color: #3a82c6;
+}
+
+.contactus__form-textfield__input:disabled {
+    border-color: #e6e6e6;
+    background: #f9fafb;
+}
+
+.contactus__form-textfield__input::-moz-placeholder {
+    color: transparent;
+}
+
+.contactus__form-textfield__input:-ms-input-placeholder {
+    color: transparent;
+}
+
+.contactus__form-textfield__input::placeholder {
+    color: transparent;
+}
+
+.contactus__form-textfield__input:focus+.contactus__form-textfield__label,
+.contactus__form-textfield__input:valid+.contactus__form-textfield__label,
+.contactus__form-textfield__input:disabled+.contactus__form-textfield__label {
+    display: none;
+}
+
+.contactus__button {
+    display: flex;
+    align-items: center;
+    padding: 24px 48px;
+    width: fit-content;
+    background-color: #333333;
+    color: #FFF;
+    border-style: none;
+    font: 400 12px/12px 'Roboto', sans-serif;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.arrow-right {
+    margin-left: 12px;
+}
+
+.contactus__form-img-wrapper {
+    width: 100%;
+    margin-left: 30px;
+}
+
+.contactus__form-img {
+    width: 100%;
+}

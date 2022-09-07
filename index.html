@@ -12,18 +12,31 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@300;400;500;700;900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="./assets/styles/style-index.css">
+    <link rel="stylesheet" href="./assets/styles/style-certifications.css">
 </head>
 
 <body>
     <header class="header">
         <img class="header__logo" alt="Логотип" src="assets/images/logo.svg">
-        <nav class="header__nav">
-            <a class="header__link" href="index.html">MAIN</a>
-            <a class="header__link" href="gallery.html">GALLERY</a>
-            <a class="header__link" href="projects.html">PROJECTS</a>
-            <a class="header__link" href="certifications.html">CERTIFICATIONS</a>
-            <a class="header__link" href="contacts.html">CONTACTS</a>
-        </nav>
+        <div class="header__wrapper-menu">
+            <div class="header__menu-btn">
+                <input type="checkbox" id="header__btn">
+                <label for="header__btn">
+                    <div class="header__icon">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </label>
+                <nav class="header__nav">
+                    <a class="header__link" href="index.html">MAIN</a>
+                    <a class="header__link" href="gallery.html">GALLERY</a>
+                    <a class="header__link" href="projects.html">PROJECTS</a>
+                    <a class="header__link" href="certifications.html">CERTIFICATIONS</a>
+                    <a class="header__link" href="contacts.html">CONTACTS</a>
+                </nav>
+            </div>
+        </div>
     </header>
 
     <div class="project">
@@ -46,6 +59,101 @@
             </div>
         </div>
     </div>
+
+    <section class="contactus">
+        <h3 class="contactus__title">Contact Us</h3>
+        <div class="contactus__container">
+            <div class="contactus__form">
+                <form>
+                    <fieldset class="contactus__form-textfield  contactus__form-textfield_light">
+                        <input id="name" class="contactus__form-textfield__input" required>
+                        <label for="name"
+                            class="contactus__form-textfield__label contactus__form-textfield__label--required">Name</label>
+                    </fieldset>
+                    <fieldset class="contactus__form-textfield  contactus__form-textfield_light">
+                        <input id="phone" class="contactus__form-textfield__input" required>
+                        <label for="phone"
+                            class="contactus__form-textfield__label contactus__form-textfield__label--required asterisk">Phone
+                            Number</label>
+                    </fieldset>
+                    <fieldset class="contactus__form-textfield  contactus__form-textfield_light">
+                        <input id="email" class="contactus__form-textfield__input" required>
+                        <label for="email"
+                            class="contactus__form-textfield__label contactus__form-textfield__label--required asterisk">E-mail</label>
+                    </fieldset>
+                    <fieldset class="contactus__form-textfield  contactus__form-textfield_light">
+                        <input id="interested" class="contactus__form-textfield__input" required>
+                        <label for="interested"
+                            class="contactus__form-textfield__label contactus__form-textfield__label--required">Interested
+                            In</label>
+                    </fieldset>
+                    <fieldset class="contactus__form-textfield  contactus__form-textfield_light">
+                        <textarea id="message" class="contactus__form-textfield__input" cols="30" rows="13"
+                            required></textarea>
+                        <label for="message"
+                            class="contactus__form-textfield__label contactus__form-textfield__label--required asterisk">Message</label>
+                    </fieldset>
+                </form>
+                <button class="contactus__button" type="submit"><span>Send Email</span><img
+                        src="./assets/images/arrow-2-right-long.svg" class="arrow-right" alt="Arrow"></button>
+            </div>
+            <div class="contactus__form-img-wrapper">
+                <img src="./assets/images/contactus-img.svg" class="contactus__form-img" alt="Contact Us">
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer__wrapper">
+            <img class="footer__logo" alt="footer logo" src="./assets/images/footer-logo.svg">
+            <div class="footer__wrapper-infotmation">
+                <div class="footer__information">
+                    <h6 class="footer__header">Information</h6>
+                    <a class="footer__link" href="index.html">Main</a>
+                    <a class="footer__link" href="gallery.html">Gallery</a>
+                    <a class="footer__link" href="projects.html">Projects</a>
+                    <a class="footer__link" href="certifications.html">Certifications</a>
+                    <a class="footer__link" href="contacts.html">Contacts</a>
+                </div>
+                <div class="footer__contacts">
+                    <h6 class="footer__header">Contacts</h6>
+                    <div class="footer__item">
+                        <img class="footer__contacts_location" alt="footer location icon"
+                            src="./assets/images/footer-location.svg">1234 Sample Street Austin Texas
+                        78704
+                    </div>
+                    <div class="footer__item">
+                        <img class="footer__contacts_phone" alt="footer phone icon"
+                            src="./assets/images/footer-phone.svg">512.333.2222
+                    </div>
+                    <div class="footer__item">
+                        <img class="footer__contacts_email" alt="footer email icon"
+                            src="./assets/images/footer-email.svg">sampleemail@gmail.com
+                    </div>
+                </div>
+                <div class="footer__social-media">
+                    <h6 class="footer__header">Social Media</h6>
+                    <div class="footer__icon">
+                        <a class="footer__icon-links" href="#">
+                            <img alt="facebook icon" src="./assets/images/footer-facebook.svg">
+                        </a>
+                        <a class="footer__icon-links" href="#">
+                            <img alt="twitter icon" src="./assets/images/footer-twitter.svg">
+                        </a>
+                        <a class="footer__icon-links" href="#">
+                            <img alt="linked in icon" src="./assets/images/footer-linked-in.svg">
+                        </a>
+                        <a class="footer__icon-links" href="#">
+                            <img alt="pininterest icon" src="./assets/images/footer-pininterest.svg">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__rights">
+            &copy; 2021 All Rights Reserved
+        </div>
+    </footer>
 </body>
 
 </html>
