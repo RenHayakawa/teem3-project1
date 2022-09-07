@@ -82,11 +82,7 @@ html {
 
 @media screen and (max-width:767px) {
     .section__contacts {
-        padding: 63px;
-        padding-top: 63px;
-        padding-right: 50px;
-        padding-left: 50px;
-        padding-bottom: 63px;
+        padding: 63px 50px 63px 50px;
     }
 
     .section__title {
