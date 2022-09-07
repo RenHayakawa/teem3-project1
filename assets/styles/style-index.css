@@ -233,6 +233,10 @@ html {
     cursor: pointer;
 }
 
+.contactus__button:hover {
+    font-weight: bold;
+}
+
 .arrow-right {
     margin-left: 12px;
 }
