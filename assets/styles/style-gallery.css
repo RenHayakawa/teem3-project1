@@ -38,6 +38,7 @@ html {
     grid-template-columns: repeat(auto-fit, 210px);
     grid-template-rows: repeat(2, 260px);
     gap: 30px;
+    max-width: 1200px;
     margin-bottom: 60px;
 }
 
@@ -99,4 +100,45 @@ html {
 .paging__page-btn-next:hover,
 .paging__page-btn-preview:hover {
     background-color: #F9F9F9;
+}
+
+@media screen and (max-width:767px) {
+
+    .section__gallery {
+        padding: 63px 50px 63px 50px;
+    }
+
+    .section__title {
+        font: normal 700 34px/34px 'Roboto', sans-serif;
+    }
+
+    .section__title span {
+        font: normal 300 34px/34px 'Roboto', sans-serif;
+    }
+
+    .paging {
+        margin-bottom: 60px;
+    }
+
+    .paging__page-numbers span {
+        font: 400 18px/18px 'Roboto', sans-serif;
+        margin-right: 15px;
+    }
+
+    .paging__page-numbers a {
+        font: 400 18px/18px 'Roboto', sans-serif;
+        margin-left: 15px;
+    }
+
+    .paging__page-line-img {
+        max-width: 70%;
+    }
+
+    .paging__page-btn-preview {
+        margin-left: 15px;
+    }
+
+    .paging__page-btn-next {
+        margin-left: 15px;
+    }
 }
