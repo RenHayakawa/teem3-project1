@@ -80,14 +80,23 @@ html {
     }
 
     .footer__logo {
-        display: flex;
         align-self: flex-start;
         margin-right: 99px;
     }
 
     .footer__wrapper-infotmation {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 1fr;
+        gap: 50px;
+        justify-items: start;
+        width: 100%;
+    }
+
+    .footer__information {
+        grid-column: 1/2;
         display: flex;
-        min-width: 80%;
+        flex-direction: column;
     }
 
     .footer__header {
@@ -95,12 +104,6 @@ html {
         margin-bottom: 25px;
         font: normal 700 16px/19px 'Roboto', sans-serif;
         color: #FFFFFF;
-    }
-
-    .footer__information {
-        display: flex;
-        flex-direction: column;
-        margin-right: 157px;
     }
 
     .footer__link {
@@ -115,9 +118,9 @@ html {
     }
 
     .footer__contacts {
+        grid-column: 2/3;
         display: flex;
         flex-direction: column;
-        margin-right: 157px;
     }
 
     .footer__item {
@@ -139,6 +142,7 @@ html {
     }
 
     .footer__social-media {
+        grid-column: 3/4;
         display: flex;
         flex-direction: column;
     }
