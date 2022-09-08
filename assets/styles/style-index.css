@@ -309,8 +309,9 @@ html {
 }
 
 .fx {
-    margin: 100px;
-
+   padding-right: 19%;
+   padding-left: 10%;
+   margin-bottom: 120px;
 }
 
 .flex-2,
