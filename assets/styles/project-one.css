@@ -34,7 +34,6 @@ html {
 .project-one__items {
     display: flex;
     flex-direction: column;
-    max-width: 1200px;
     width: 100%;
 }
 
