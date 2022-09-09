@@ -11,18 +11,20 @@ html {
 /*projeckt*/
 
 .project__boby {
-    max-width: 1170px;
-    margin: 0px auto;
+    padding: 63px 19% 0px 10%;
     display: flex;
-    flex-direction: row;
+
     justify-content: space-between;
+    width: 100%;
 }
 
 .project__colum {
-    width: 45%;
+    padding-right: 40px;
 }
 
 .project__title {
+    width: 278px;
+    height: 64px;
     font-family: 'Roboto';
     font-weight: 300;
     font-size: 64px;
@@ -39,14 +41,86 @@ html {
     color: #333333;
 }
 
-.project__slider-arrow,
-.project__slide-numbers {
-    margin-top: 90px;
+.project__paging {
+    display: flex;
+    flex-direction: column;
+}
+
+.project__page-numbers {
+    display: flex;
+    align-items: center;
+    padding-top: 90px;
+}
+
+.project__page-numbers span {
+    font: 400 24px/24px 'Roboto', sans-serif;
+    color: #333333;
+    margin-right: 25px;
+}
+
+.project__page-numbers a {
+    font: 400 24px/24px 'Roboto', sans-serif;
+    color: #BDBDBD;
+    margin-left: 30px;
+    text-decoration: none;
+}
+
+.project__page-btn {
+    display: flex;
+    padding-top: 90px;
+}
+
+.project__page-btn-preview {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    width: 50px;
+    height: 50px;
+    background-color: #FFFFFF;
+    border: 1px solid #F2F2F2;
+}
+
+.project__page-btn-preview:hover {
+    background-color: #F9F9F9;
+}
+
+.project__page-btn-next {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    width: 50px;
+    height: 50px;
+    background-color: #FFFFFF;
+    border: 1px solid #F2F2F2;
+    margin-left: 22px;
+}
+
+
+.project__page-btn-next:hover {
+    background-color: #F9F9F9;
 }
 
 .project__button {
-    margin-top: 12px;
-    margin-left: 320px;
+    display: flex;
+    align-items: center;
+    padding: 24px 48px;
+    background-color: white;
+    color: black;
+    border-style: none;
+    font: 400 12px/12px 'Roboto', sans-serif;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+    margin-top: 40px;
+    margin-left: 370px;
+}
+
+.project__button:hover {
+    font-weight: bold;
+    border: 2px solid #BDBDBD;
 }
 
 .project_image {
@@ -56,6 +130,119 @@ html {
 
 .project__colum {
     max-width: 100%
+}
+
+/*Our Projeckt*/
+
+.ourprojects {
+    padding: 63px 19% 120px 10%;
+}
+
+.ourprojects__container {
+    width: 100%;
+}
+
+.ourprojects__title {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+    margin: 0 0 22px;
+    font: 300 64px/64px 'Roboto', sans-serif;
+    color: #BDBDBD;
+}
+
+.ourprojects__gallery {
+    max-width: 1200px;
+    margin-bottom: 30px;
+}
+
+.gallery__stack {
+    display: grid;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+}
+
+.gallery__photo1 {
+    grid-area: c1;
+}
+
+.gallery__photo1-1 {
+    grid-area: c2;
+    position: relative;
+    width: 100%;
+}
+
+.gallery__text {
+    position: absolute;
+    width: 233px;
+    height: 160px;
+    top: 48px;
+    left: 79px;
+    font: 700 64px/64px 'Roboto', sans-serif;
+    color: #FFFFFF;
+}
+
+.gallery__item-link-wrapper {
+    position: absolute;
+    margin-top: auto;
+    background-color: none;
+}
+
+.gallery__item-link {
+    display: flex;
+    margin-top: auto;
+    font: 12px/12px 'Roboto', sans-serif;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.gallery__item-link:hover {
+    font-weight: bold;
+}
+
+.gallery__item-link span {
+    display: inline-block;
+    margin-top: 5px;
+    margin-right: 20px;
+    font: 12px/12px 'Roboto', sans-serif;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+}
+
+.gallery__photo-1-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.gallery__photo-3-5 {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 30px;
+}
+
+.ourprojects__button {
+    display: flex;
+    align-items: center;
+    padding: 24px 48px;
+    width: fit-content;
+    background-color: #333333;
+    color: #FFF;
+    border-style: none;
+    font: 400 12px/12px 'Roboto', sans-serif;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+    margin-left: 960px;
+}
+
+.ourprojects__button:hover {
+    font-weight: bold;
 }
 
 /* Contact Us */
@@ -309,9 +496,9 @@ html {
 }
 
 .fx {
-   padding-right: 19%;
-   padding-left: 10%;
-   margin-bottom: 120px;
+    padding-right: 19%;
+    padding-left: 10%;
+    margin-bottom: 120px;
 }
 
 .flex-2,
