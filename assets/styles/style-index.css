@@ -121,12 +121,9 @@ main {
 .project__container {
     position: relative;
     max-width: 100%;
-    max-height: 60%;
 }
 
 .project__image {
-    width: 100%;
-    height: auto;
     display: flex;
     align-items: flex-end;
 }
@@ -259,6 +256,10 @@ main {
 .ourprojects__gallery {
     margin-bottom: 30px;
 }
+
+/* .ourprojects img {
+    width: 100%;
+} */
 
 .ourprojects__gallery_top {
     min-height: 255px;
@@ -540,52 +541,6 @@ main {
 
 @media screen and (max-width:768px) {
 
-    .project__title,
-    .project__text {
-        padding: 0;
-        margin: 0 0 22px;
-        font: 300 34px/34px 'Roboto', sans-serif;
-    }
-
-    .project__container {
-        max-width: 100%;
-    }
-
-    .project__image {
-        max-width: 100%;
-        width: 100%;
-    }
-
-    .project__page-btn {
-        padding-top: 30px;
-    }
-
-    .project__page-numbers {
-        padding: 40px 0px 40px 0px;
-    }
-
-    .contactus {
-        padding: 33px 10px 120px 30px;
-    }
-
-    .contactus__title {
-        padding: 0;
-        margin: 0 0 22px;
-        font: 300 34px/34px 'Roboto', sans-serif;
-    }
-
-    .contactus__form {
-        max-width: 700px;
-    }
-
-    .contactus__form-img-wrapper {
-        display: none;
-    }
-
-    .contactus__form textarea {
-        margin-bottom: 50px;
-    }
-
     .mission {
         padding: 0;
         margin: 0 0 22px;
@@ -607,6 +562,28 @@ main {
     .mission__text-block_text {
         width: 100%;
         height: 150px;
+        margin-bottom: 50px;
+    }
+
+    .contactus {
+        padding: 33px 10px 120px 30px;
+    }
+
+    .contactus__title {
+        padding: 0;
+        margin: 0 0 22px;
+        font: 300 34px/34px 'Roboto', sans-serif;
+    }
+
+    .contactus__form {
+        max-width: 700px;
+    }
+
+    .contactus__form-img-wrapper {
+        display: none;
+    }
+
+    .contactus__form textarea {
         margin-bottom: 50px;
     }
 }
@@ -641,5 +618,46 @@ main {
         max-width: 749px;
         height: 369px;
         object-fit: cover;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+
+    .project {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .project__colum {
+        padding: 0;
+    }
+
+    .project__title {
+        margin: 0;
+        font: 300 34px/84px 'Roboto', sans-serif;
+    }
+
+    .project__text {
+        font: 700 34px/34px 'Roboto', sans-serif;
+    }
+
+    .project__container {
+        max-width: 100%;
+    }
+
+    .project__image img {
+        max-width: 100%;
+    }
+
+    .project__page-btn {
+        padding-top: 30px;
+    }
+
+    .project__page-numbers {
+        padding: 40px 0px 40px 0px;
+    }
+
+    .project__button {
+        padding: 4% 4%;
     }
 }
